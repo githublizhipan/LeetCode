@@ -31,7 +31,6 @@ void func(int m) { //**********
 }
 
 
-
 int main() {
     cin >> n;
     func(1);
