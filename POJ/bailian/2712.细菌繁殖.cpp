@@ -18,7 +18,7 @@ int main() {
     while (t--) {
         cin >> month1 >> day1 >> num >> month2 >> day2;
         sumday = 0;
-        if (month1 == month2) {
+        if (month1 == month2) {  //在同一个月
             sumday = day2 - day1;
         } else {
             sumday += (month[month1] - day1);
